@@ -134,7 +134,7 @@ window.addEventListener("scroll", scrollUpfunc);
 
 // Typing Animation using Typed JS
 var typed = new Typed(".type", {
-  strings: ["a Web developer", "an Android", "a Blockchain"],
+  strings: ["a Web developer", "a Programmer", "a ML Aspirant"],
   smartBackspace: true,
   startDelay: 1000,
   typeSpeed: 130,
