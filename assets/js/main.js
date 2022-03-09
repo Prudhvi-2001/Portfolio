@@ -115,7 +115,6 @@ function scrollActive() {
     }
   });
 }
-window.addEventListener("scroll", scrollActive);
 
 // HEADER SHADOW
 function scrollHeader() {
