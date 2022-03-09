@@ -960,7 +960,7 @@ form{
 
 /* MEDIA QUERIES */
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
   html{
     overflow-x: hidden;
 
