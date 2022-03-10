@@ -1014,7 +1014,7 @@ form{
   font-size: 12px;
 }
 .header {
-  width: 70%;
+  width: 80%;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -1040,7 +1040,7 @@ form{
     width: 100%;
   }
   .show-menu {
-   width: 80%;
+   width: 90%;
 }
   .nav_menu {
     padding: 2rem 0.25rem 4rem;
