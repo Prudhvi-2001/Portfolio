@@ -19,12 +19,18 @@
  </head>
 
 <body>
+  <div class="header1"style="margin-top:0px">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
   <!-- Header -->
    <div id="preloader">
         <div class="loader_line"></div>
     </div>
+    
 
-  <header class="header" id="header">
+  <header class="header" id="header" style="margin-top:3px">
     <nav class="nav container">
      <a href="#" class="nav_logo"> Prudhvi</a>
 
@@ -87,7 +93,7 @@
         <div class="home_content grid">
                  
 
-          <div class="home_data" >
+          <div class="home_data" data-aos="fade" data-aos-duration="3000">
             <h1 class="home_title">Hi, I'm <span class="title"><b>Kuntrapakam Muni Prudhvi</b></span></h1>
               <h3 class="home_subtitle">I'm  <span class="type" id="typed"></span></h3>
               <h3 class="description">This is my Official Portfolio which shows<br> everything about me.</h3>
@@ -98,7 +104,7 @@
           </div>
 
         </div>
-        <img src="prudhvi.png" width="25%" class="image" >
+        <img src="prudhvi.png" width="25%" class="image" data-aos="fade" data-aos-duration="3000" >
 
         <div class="home_scroll" data-aos="fade" data-aos-duration="3000">
           <a href="#about" class="home_scroll-button button--flex1">
@@ -769,4 +775,16 @@
 
     <script src="js/plugins.js"></script>
     <script src="js/init.js"></script>
+    <script>
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
 </html>

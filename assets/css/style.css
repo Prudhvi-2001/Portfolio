@@ -460,7 +460,19 @@ body.dark .loader_line:after {
     animation: lineround 1200ms linear 0s infinite;
     animation-delay: 2000ms
 }
-
+/*progress bar*/
+.header1{
+  position: fixed;
+  margin-top:20px;
+  z-index: 1;
+ width:100%;
+background-color: var(--body-color);
+}
+.progress-bar {
+  height: 3px;
+ background-color: var(--first-color);
+  width: 0%;
+}
 /* Active link */
 .active-link {
   color: var(--first-color);
